@@ -1,0 +1,24 @@
+body *::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body * {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Request Progressbar styles */
+#nprogress .bar {
+  background: red !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px red, 0 0 5px red !important;
+}
+
+#nprogress .spinner-icon {
+  display: none;
+  border-top-color: red !important;
+  border-left-color: red !important;
+}
